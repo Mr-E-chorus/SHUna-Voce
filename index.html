@@ -232,6 +232,37 @@ function showAppUI() {
           { measure: 1,   bpm: 108 },       // pickup + measures 1–7
         ]
       },
+      {
+        id: "PBD",
+        title: "A Pale Blue Dot",
+        basePath: "assets/A Pale Blue Dot/",
+        tracks: [
+          { label: "Accompaniment",    file: "A Pale Blue Dot Acompaniment-mp3.mp3" },
+          { label: "Soprano 1",        file: "A Pale Blue Dot Soprano 1.wav" },
+          { label: "Soprano 2",        file: "A Pale Blue Dot Soprano 2.wav" },
+          { label: "Alto 1",           file: "A Pale Blue Dot Alto 1.wav" },
+          { label: "Alto 2",           file: "A Pale Blue Dot Alto 2.wav" },
+          { label: "Tenor 1",          file: "A Pale Blue Dot Tenor 1.wav" },
+          { label: "Tenor 2",          file: "A Pale Blue Dot Tenor 2.wav" },
+          { label: "Baritone",         file: "A Pale Blue Dot Baritone.wav" },
+          { label: "Bass",             file: "A Pale Blue Dot Bass.wav" },
+        ],
+        // Timeline/tempo for this song:
+        meterMap: [
+           { measure: 1,    beatsPerMeasure: 4 },              // set to 3 for 3/4, etc.
+           { measure: 32,   beatsPerMeasure: 2 },              // set to 3 for 3/4, etc.
+           { measure: 35,   beatsPerMeasure: 4 },              // set to 3 for 3/4, etc.
+           { measure: 109,  beatsPerMeasure: 2 },              // set to 3 for 3/4, etc.
+           { measure: 110,  beatsPerMeasure: 4 },              // set to 3 for 3/4, etc.
+           { measure: 145,  beatsPerMeasure: 2 },              // set to 3 for 3/4, etc.
+           { measure: 146,  beatsPerMeasure: 4 },              // set to 3 for 3/4, etc.
+          ],
+        measuresTotal:   188,
+        tempoMap: [
+          { measure: 1,    bpm: 55 },       // pickup + measures 1–7
+          { measure: 11,   bpm: 70 },       // pickup + measures 1–7
+        ]
+      },
       // Example stub for adding another song later:
       // {
       //   id: "close-every-door",
